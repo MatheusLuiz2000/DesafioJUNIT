@@ -23,3 +23,11 @@ Arquivo:
   Classe: Nenhum Ajustes no valores e nem no código
   Teste: Criação de novo teste passando Inocente e Inocente e recebendo no valor 1
 
+
+Sexto Commit -
+
+Arquivo:
+  Classe: Realizado ajustes no respostaPrisioneiroB para que possa retornar pena de inonencia
+  Teste: Criação de um novo teste passando Culpado e Inocente
+
+
