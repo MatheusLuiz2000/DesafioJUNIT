@@ -14,3 +14,27 @@ class JulgamentoPrisioneiroTest {
 }
 
 ---------------------------------------------------------------------------------------------------
+
+Segundo Commit - 
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JulgamentoPrisioneiroTest {
+
+	@Test
+	public void testJulgamento2() {
+		JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
+		assertNotNull(jp);
+		
+		String respSuspeitoA = "Delacao";
+		String respSuspeitoB = "Delacao";
+		
+		int penaSuspeitoA = jp.calculaPena(respSuspeitoA, respSuspeitoB);
+		int penaSuspeitoB = jp.calculaPena(respSuspeitoB, respSuspeitoA);
+		
+		assertEquals(5, penaSuspeitoA);
+		assertEquals(5, penaSuspeitoB);
+	}
+}
