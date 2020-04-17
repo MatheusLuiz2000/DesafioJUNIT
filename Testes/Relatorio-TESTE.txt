@@ -3,3 +3,9 @@ Primeiro Commit -
 Arquivo: 
   Classe: Criação do arquivo
   Teste: Criação do arquivo
+
+Segundo Commit -
+
+Arquivo:
+  Classe: Ajustes na Classe
+  Teste: Teste Padrão
