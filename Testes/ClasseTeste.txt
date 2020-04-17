@@ -28,8 +28,8 @@ class JulgamentoPrisioneiroTest {
 		JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
 		assertNotNull(jp);
 		
-		String respSuspeitoA = "Delacao";
-		String respSuspeitoB = "Delacao";
+		String respSuspeitoA = "Culpado";
+		String respSuspeitoB = "Culpado";
 		
 		int penaSuspeitoA = jp.calculaPena(respSuspeitoA, respSuspeitoB);
 		int penaSuspeitoB = jp.calculaPena(respSuspeitoB, respSuspeitoA);
@@ -38,3 +38,30 @@ class JulgamentoPrisioneiroTest {
 		assertEquals(5, penaSuspeitoB);
 	}
 }
+
+
+---------------------------------------------------------------------------------------------------
+
+Quarto Commit 
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JulgamentoPrisioneiroTest {
+
+	@Test
+	public void testJulgamento2() {
+		JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
+		assertNotNull(jp);
+		
+		String respSuspeitoA = "Culpado";
+		String respSuspeitoB = "Culpado";
+		
+		int penaSuspeitoA = jp.calculaPena(respSuspeitoA, respSuspeitoB);
+		
+		assertEquals(5, penaSuspeitoA);
+	}
+}
+
+---------------------------------------------------------------------------------------------------

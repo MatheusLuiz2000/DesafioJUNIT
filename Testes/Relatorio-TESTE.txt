@@ -9,3 +9,10 @@ Segundo Commit -
 Arquivo:
   Classe: Ajustes na Classe
   Teste: Teste Padrão
+
+
+Quarto Commit -
+
+Arquivo:
+  Classe: Ajustes no valores certos do desenvolvedor
+  Teste: Teste Padrao no valor Culpado esperando receber 5, passou!
