@@ -24,6 +24,21 @@ import org.junit.jupiter.api.Test;
 class JulgamentoPrisioneiroTest {
 
 	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+}
+
+---------------------------------------------------------------------------------------------------
+Terceiro Commit - 
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JulgamentoPrisioneiroTest {
+
+	@Test
 	public void testJulgamento2() {
 		JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
 		assertNotNull(jp);
@@ -38,8 +53,6 @@ class JulgamentoPrisioneiroTest {
 		assertEquals(5, penaSuspeitoB);
 	}
 }
-
-
 ---------------------------------------------------------------------------------------------------
 
 Quarto Commit 
@@ -62,6 +75,44 @@ class JulgamentoPrisioneiroTest {
 		
 		assertEquals(5, penaSuspeitoA);
 	}
+}
+
+---------------------------------------------------------------------------------------------------
+
+Quinto Commit 
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JulgamentoPrisioneiroTest {
+
+	@Test
+	public void testJulgamento2() {
+		JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
+		assertNotNull(jp);
+		
+		String respSuspeitoA = "Culpado";
+		String respSuspeitoB = "Culpado";
+		
+		int penaSuspeitoA = jp.calculaPena(respSuspeitoA, respSuspeitoB);
+		
+		assertEquals(5, penaSuspeitoA);
+	}
+
+  	@Test
+	public void testJulgamento2() {
+		JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
+		assertNotNull(jp);
+		
+		String respSuspeitoA = "Inocente";
+		String respSuspeitoB = "Inocente";
+		
+		int penaSuspeitoA = jp.calculaPena(respSuspeitoA, respSuspeitoB);
+		
+		assertEquals(1, penaSuspeitoA);
+	}
+  
 }
 
 ---------------------------------------------------------------------------------------------------

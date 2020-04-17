@@ -16,3 +16,10 @@ Quarto Commit -
 Arquivo:
   Classe: Ajustes no valores certos do desenvolvedor
   Teste: Teste Padrao no valor Culpado esperando receber 5, passou!
+
+Quinto Commit -
+
+Arquivo:
+  Classe: Nenhum Ajustes no valores e nem no código
+  Teste: Criação de novo teste passando Inocente e Inocente e recebendo no valor 1
+
